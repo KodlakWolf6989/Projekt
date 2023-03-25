@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ffffff; /* barva ohraničení */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #000000 !important; /* barva ohraničení */
+}
+a{
+    padding: 10px;
+}
+
+.picture{
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flindamood.net%2Fwp-content%2Fuploads%2F2019%2F09%2FBlank-profile-image.jpg&f=1&nofb=1&ipt=97bac53cdbcfdc58ecdb52fd326b6da63bc426e179631c6d7ee414a6477acd8d&ipo=images");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin: 20px;
+}
+.form{
+    display: flex;
+}
+.form-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.content{
+    margin: 40px;
+}
+input{
+    border-radius: 3px;
+}
+.form-part{
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.button{
+    width: 200px;
+}
